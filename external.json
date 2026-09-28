@@ -20,7 +20,6 @@
       "type": "automated"
     },
     
-    
     {
       "code": "ug",
       "name": "Uganda",
@@ -42,6 +41,8 @@
             "Enter your MTN MoMo PIN to authorize."
           ]
         },
+
+        
         {
           "provider": "Airtel Uganda",
           "phone": "254739162763",
@@ -58,7 +59,77 @@
     },
 
     
+    {
+      "code": "tz",
+      "name": "Tanzania",
+      "flag": "🇹🇿",
+      "currency": "TZS",
+      "rate_to_kes": 20.0,
+      "type": "manual",
+      "methods": [
+        {
+          "provider": "Vodacom M-Pesa Tanzania",
+          "phone": "254713804279",
+          "steps": [
+            "Dial *150*00#.",
+            "Select Send Money, then select International Transfers.",
+            "Choose M-Pesa Kenya.",
+            "Enter recipient phone number: {phone}",
+            "Input amount in TZS ({amount}), review automated conversion rates, and enter M-Pesa PIN."
+          ]
+        },
+
         
+        {
+          "provider": "Airtel Tanzania",
+          "phone": "254713804279",
+          "steps": [
+            "Dial *150*60#.",
+            "Select 1: Send Money.",
+            "Choose 5: Send Money Abroad.",
+            "Select Kenya.",
+            "Select 1: Mobile Wallet and choose either Airtel Kenya or M-Pesa Kenya.",
+            "Enter recipient mobile number: {phone}",
+            "Enter amount in TZS ({amount}), pick transfer reason, and enter Airtel Money PIN."
+          ]
+        }
+      ]
+    },
+
+    
+    {
+      "code": "rw",
+      "name": "Rwanda",
+      "flag": "🇷🇼",
+      "currency": "RWF",
+      "rate_to_kes": 10.0,
+      "type": "manual",
+      "methods": [
+        {
+          "provider": "MTN Rwanda",
+          "phone": "254713804279",
+          "steps": [
+            "Dial *182#.",
+            "Select Send Money, then select International Remittance / Cross Border.",
+            "Choose Kenya and select destination wallet (M-Pesa or Airtel Money).",
+            "Enter recipient phone number: {phone}",
+            "Enter amount in RWF ({amount}) and confirm with MTN MoMo PIN."
+          ]
+        },
+        
+        {
+          "provider": "Airtel Rwanda",
+          "phone": "254713804279",
+          "steps": [
+            "Dial *182# or open MyAirtel App.",
+            "Choose Airtel Money, then select Send Money.",
+            "Click International and select Kenya.",
+            "Enter phone number: {phone}, input amount ({amount}), and confirm using Airtel PIN."
+          ]
+        }
+      ]
+    },
+
     
     {
       "code": "zm",
@@ -84,15 +155,15 @@
 
     
     {
-      "code": "zb",
-      "name": "Zimbabwe",
+      "code": "mw",
+      "name": "Malawi",
       "flag": "🇲🇼",
-      "currency": "USD",
-      "rate_to_kes": 20.5,
+      "currency": "MWK",
+      "rate_to_kes": 13.5,
       "type": "manual",
       "methods": [
         {
-          "provider": "Eco Cash",
+          "provider": "Airtel Malawi",
           "phone": "254713804279",
           "steps": [
             "Dial *211#.",
