@@ -9,6 +9,7 @@
     "twitter_url": "https://twitter.com/victonic_sports",
     "telegram_url": "https://t.me/+GEkAL_4kqyJjNDc0"
   },
+  
   "countries": [
     {
       "code": "ke",
@@ -18,6 +19,7 @@
       "rate_to_kes": 1,
       "type": "automated"
     },
+    
     {
       "code": "ug",
       "name": "Uganda",
@@ -53,6 +55,8 @@
         }
       ]
     },
+    
+    
     {
       "code": "tz",
       "name": "Tanzania",
@@ -87,6 +91,8 @@
         }
       ]
     },
+
+    
         {
       "code": "zm",
       "name": "Zambia",
@@ -120,6 +126,7 @@
     "pick": "Pick: 1 & Over 1.5 Goals",
     "confidence": "92"
   },
+    
   
   "packages": [
     { "id": "draw1", "title": "1 Draw Package", "type": "flat", "price_kes": 150 },
@@ -139,6 +146,9 @@
       ]
     }
   ],
+
+
+    
   "tips": {
     "draw1": [ { "teamA": "Valencia", "teamB": "Sevilla", "tip": "Draw", "odds": "3.20" } ],
     "draw2": [ { "teamA": "Everton", "teamB": "Fulham", "tip": "Draw", "odds": "3.40" }, { "teamA": "Lazio", "teamB": "Roma", "tip": "Draw", "odds": "3.10" } ],
