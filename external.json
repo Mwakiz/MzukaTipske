@@ -58,42 +58,7 @@
     },
 
     
-    {
-      "code": "tz",
-      "name": "Tanzania",
-      "flag": "🇹🇿",
-      "currency": "TZS",
-      "rate_to_kes": 20.0,
-      "type": "manual",
-      "methods": [
-        {
-          "provider": "Vodacom M-Pesa Tanzania",
-          "phone": "254713804279",
-          "steps": [
-            "Dial *150*00#.",
-            "Select Send Money, then select International Transfers.",
-            "Choose M-Pesa Kenya.",
-            "Enter recipient phone number: {phone}",
-            "Input amount in TZS ({amount}), review automated conversion rates, and enter M-Pesa PIN."
-          ]
-        },
-        {
-          "provider": "Airtel Tanzania",
-          "phone": "254713804279",
-          "steps": [
-            "Dial *150*60#.",
-            "Select 1: Send Money.",
-            "Choose 5: Send Money Abroad.",
-            "Select Kenya.",
-            "Select 1: Mobile Wallet and choose either Airtel Kenya or M-Pesa Kenya.",
-            "Enter recipient mobile number: {phone}",
-            "Enter amount in TZS ({amount}), pick transfer reason, and enter Airtel Money PIN."
-          ]
-        }
-      ]
-    },
-
-    
+        
     
     {
       "code": "zm",
