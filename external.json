@@ -230,6 +230,11 @@
             { "country": "italy", "teamA": "Gergia", "teamB": "Ukraine", "prediction": "Draw", "score": "0-0", "odds": "3.25", "result": "WON" },
             { "country": "france", "teamA": "Tunisia", "teamB": "Botswana", "prediction": "Draw", "score": "2-2", "odds": "3.30", "result": "WON" }
         ],
+        "3 Draws": [ 
+            { "country": "germany", "teamA": "Bochum", "teamB": "Koln", "prediction": "Draw", "score": "2-2", "odds": "3.40", "result": "WON" },
+            { "country": "england", "teamA": "Crystal Palace", "teamB": "West Ham", "prediction": "Draw", "score": "1-1", "odds": "3.15", "result": "WON" },
+            { "country": "italy", "teamA": "Lecce", "teamB": "Cagliari", "prediction": "Draw", "score": "0-0", "odds": "3.00", "result": "WON" }
+        ],
        
         "2 Odds": [ { "country": "england", "teamA": "Turkiye", "teamB": "Italy", "prediction": "2", "score": "1-4", "odds": "2.60", "result": "WON" } ],
         "5 Odds": [ 
