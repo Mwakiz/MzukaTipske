@@ -71,15 +71,15 @@
     {
       "date": "Yesterday",
       "categories": {
-        "1 Draw": [ { "country": "spain", "teamA": "Getafe", "teamB": "Alaves", "prediction": "Draw", "score": "1-1", "odds": "3.10", "result": "WON" } ],
+        "1 Draw": [ { "country": "spain", "teamA": "Hull City", "teamB": "Everton", "prediction": "Draw", "score": "2-2", "odds": "3.50", "result": "WON" } ],
         "2 Draws": [ 
-            { "country": "italy", "teamA": "Verona", "teamB": "Empoli", "prediction": "Draw", "score": "0-0", "odds": "3.25", "result": "WON" },
-            { "country": "france", "teamA": "Lens", "teamB": "Lille", "prediction": "Draw", "score": "1-1", "odds": "3.30", "result": "WON" }
+            { "country": "italy", "teamA": "Fredrikstad", "teamB": "Tromso", "prediction": "Draw", "score": "1-1", "odds": "4.25", "result": "WON" },
+            { "country": "france", "teamA": "Chanthaburi", "teamB": "Nongbua Pitch", "prediction": "Draw", "score": "0-0", "odds": "3.59", "result": "WON" }
         ],
         "3 Draws": [ 
-            { "country": "germany", "teamA": "Bochum", "teamB": "Koln", "prediction": "Draw", "score": "2-2", "odds": "3.40", "result": "WON" },
-            { "country": "england", "teamA": "Crystal Palace", "teamB": "West Ham", "prediction": "Draw", "score": "1-1", "odds": "3.15", "result": "WON" },
-            { "country": "italy", "teamA": "Lecce", "teamB": "Cagliari", "prediction": "Draw", "score": "0-0", "odds": "3.00", "result": "WON" }
+            { "country": "germany", "teamA": "Renate", "teamB": "Giana Erminio", "prediction": "Draw", "score": "2-2", "odds": "4.40", "result": "WON" },
+            { "country": "england", "teamA": "Elche", "teamB": "Celta", "prediction": "Draw", "score": "0-0", "odds": "3.10", "result": "WON" },
+            { "country": "italy", "teamA": "Vitebsk", "teamB": "Isloch", "prediction": "Draw", "score": "0-0", "odds": "3.30", "result": "WON" }
         ],
         "2 Odds": [ { "country": "england", "teamA": "Arsenal", "teamB": "Chelsea", "prediction": "1", "score": "2-0", "odds": "2.10", "result": "WON" } ],
         "5 Odds": [ 
