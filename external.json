@@ -5,7 +5,7 @@
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqwnb9M3yxfriVJzTycEmKf1H9u7sbl6HeUFOMZH_oPA&s=10"
   },
   "contact_details": {
-    "whatsapp_url": "https://wa.me/254713804279?text=I'm%20interested%20in%20your%20sure%20tips%20today",
+    "whatsapp_url": "https://wa.me/254728832598?text=I'm%20interested%20in%20your%20sure%20tips%20today",
     "twitter_url": "https://twitter.com/victonic_sports",
     "telegram_url": "https://t.me/+GEkAL_4kqyJjNDc0"
   },
@@ -18,85 +18,323 @@
       "rate_to_kes": 1,
       "type": "automated"
     },
-    
-  
-  "free_tip": {
-    "country": "England",
-    "league": "Premier League",
-    "time": "Today 17:00 EAT",
-    "teamA": "Arsenal",
-    "teamB": "Chelsea",
-    "pick": "Pick: 1 ",
-    "confidence": "99"
-  },
-
-  
-  "packages": [
-    { "id": "draw1", "title": "1 Draw Package", "type": "flat", "price_kes": 200 },
-    { "id": "draw2", "title": "2 Draws Package", "type": "flat", "price_kes": 400 },
-    { "id": "draw3", "title": "3 Draws Package", "type": "flat", "price_kes": 600 },
-    { "id": "odds2", "title": "2 Odds Package", "type": "flat", "price_kes": 150 },
-    { "id": "odds3", "title": "3 Odds Package", "type": "flat", "price_kes": 350 },
-    { "id": "odds5", "title": "5 Odds Package", "type": "flat", "price_kes": 550 },
-    { "id": "odds10", "title": "10 Odds Package", "type": "flat", "price_kes": 950 },
-    { "id": "vip1000", "title": "VIP Tips Package", "type": "flat", "price_kes": 1500, "isMostPopular": true },
-    { 
-      "id": "jackpot", 
-      "title": "SportPesa & Betika Jackpots", 
-      "type": "jackpot", 
-      "jackpots": [
-        { "bookmaker": "SportPesa Mega", "amount_kes": 200 },
-        { "bookmaker": "Betika Midweek", "amount_kes": 150 }
+    {
+      "code": "ug",
+      "name": "Uganda",
+      "flag": "🇺🇬",
+      "currency": "UGX",
+      "rate_to_kes": 78.5,
+      "type": "manual",
+      "methods": [
+        {
+          "provider": "MTN Uganda (to Safaricom M-Pesa)",
+          "phone": "254728832598",
+          "steps": [
+            "Dial *165*1*2# on your mobile line.",
+            "Select 1: Send Money.",
+            "Choose 3: International Transfer.",
+            "Select 1: Safaricom M-Pesa.",
+            "Enter recipient phone number: {phone}",
+            "Enter amount in UGX ({amount}) and state reason.",
+            "Enter your MTN MoMo PIN to authorize."
+          ]
+        },
+        {
+          "provider": "Airtel Uganda",
+          "phone": "254754066101",
+          "steps": [
+            "Dial *185#.",
+            "Select 1: Send Money.",
+            "Choose 4: International Transfer.",
+            "Select Kenya.",
+            "Enter recipient phone number: {phone}",
+            "Enter amount ({amount}), input transaction reason, and confirm with Airtel Money PIN."
+          ]
+        }
+      ]
+    },
+    {
+      "code": "tz",
+      "name": "Tanzania",
+      "flag": "🇹🇿",
+      "currency": "TZS",
+      "rate_to_kes": 45.0,
+      "type": "manual",
+      "methods": [
+        {
+          "provider": "Vodacom M-Pesa Tanzania",
+          "phone": "254728832598",
+          "steps": [
+            "Dial *150*00#.",
+            "Select Send Money, then select International Transfers.",
+            "Choose M-Pesa Kenya.",
+            "Enter recipient phone number: {phone}",
+            "Input amount in TZS ({amount}), review automated conversion rates, and enter M-Pesa PIN."
+          ]
+        },
+        {
+          "provider": "Airtel Tanzania",
+          "phone": "254754066101",
+          "steps": [
+            "Dial *150*60#.",
+            "Select 1: Send Money.",
+            "Choose 5: Send Money Abroad.",
+            "Select Kenya.",
+            "Select 1: Mobile Wallet and choose either Airtel Kenya or M-Pesa Kenya.",
+            "Enter recipient mobile number: {phone}",
+            "Enter amount in TZS ({amount}), pick transfer reason, and enter Airtel Money PIN."
+          ]
+        }
+      ]
+    },
+    {
+      "code": "rw",
+      "name": "Rwanda",
+      "flag": "🇷🇼",
+      "currency": "RWF",
+      "rate_to_kes": 10.0,
+      "type": "manual",
+      "methods": [
+        {
+          "provider": "MTN Rwanda",
+          "phone": "254728832598",
+          "steps": [
+            "Dial *182#.",
+            "Select Send Money, then select International Remittance / Cross Border.",
+            "Choose Kenya and select destination wallet (M-Pesa or Airtel Money).",
+            "Enter recipient phone number: {phone}",
+            "Enter amount in RWF ({amount}) and confirm with MTN MoMo PIN."
+          ]
+        },
+        {
+          "provider": "Airtel Rwanda",
+          "phone": "254754066101",
+          "steps": [
+            "Dial *182# or open MyAirtel App.",
+            "Choose Airtel Money, then select Send Money.",
+            "Click International and select Kenya.",
+            "Enter phone number: {phone}, input amount ({amount}), and confirm using Airtel PIN."
+          ]
+        }
+      ]
+    },
+    {
+      "code": "zm",
+      "name": "Zambia",
+      "flag": "🇿🇲",
+      "currency": "ZMW",
+      "rate_to_kes": 0.21,
+      "type": "manual",
+      "methods": [
+        {
+          "provider": "Airtel Zambia",
+          "phone": "254754066101",
+          "steps": [
+            "Dial *115#.",
+            "Navigate to Airtel Money, select Send Money, and choose International Transfer.",
+            "Select Kenya as destination.",
+            "Enter recipient phone number starting with country code 254: {phone}",
+            "Input amount ({amount}), review currency exchange window, and enter Airtel T-PIN."
+          ]
+        }
+      ]
+    },
+    {
+      "code": "mw",
+      "name": "Malawi",
+      "flag": "🇲🇼",
+      "currency": "MWK",
+      "rate_to_kes": 13.5,
+      "type": "manual",
+      "methods": [
+        {
+          "provider": "Airtel Malawi",
+          "phone": "254754066101",
+          "steps": [
+            "Dial *211#.",
+            "Navigate to Airtel Money, select Send Money, and choose International Transfer.",
+            "Select Kenya as destination.",
+            "Enter recipient phone number starting with country code 254: {phone}",
+            "Input amount ({amount}), review currency exchange window, and enter Airtel T-PIN."
+          ]
+        }
       ]
     }
   ],
-
+  "free_tip": {
+    "country": "Call Us: 0728832598",
+    "league": "Super Lig",
+    "time": "Today 8:00 EAT",
+    "teamA": "Konyaspor",
+    "teamB": "Galatasaray",
+    "pick": "Pick: OVER 2.5",
+    "confidence": "98"
   
-  "tips": {
-    "draw1": [ { "teamA": "Valencia", "teamB": "Sevilla", "tip": "Draw", "odds": "3.20" } ],
-    "draw2": [ { "teamA": "Everton", "teamB": "Fulham", "tip": "Draw", "odds": "3.40" }, { "teamA": "Lazio", "teamB": "Roma", "tip": "Draw", "odds": "3.10" } ],
-    "draw3": [ { "teamA": "Nantes", "teamB": "Rennes", "tip": "Draw", "odds": "3.15" }, { "teamA": "Genoa", "teamB": "Torino", "tip": "Draw", "odds": "3.00" }, { "teamA": "Mainz", "teamB": "Bremen", "tip": "Draw", "odds": "3.30" } ],
-    "odds2": [ { "teamA": "Man City", "teamB": "Burnley", "tip": "1 & Over 2.5", "odds": "2.10" } ],
-    "odds3": [ { "teamA": "Man City", "teamB": "Burnley", "tip": "1 & Over 2.5", "odds": "2.10" } ],
-    "odds5": [ { "teamA": "Liverpool", "teamB": "Aston Villa", "tip": "1 & GG", "odds": "2.80" }, { "teamA": "Bayern", "teamB": "Dortmund", "tip": "Over 3.5", "odds": "1.90" } ],
-    "odds10": [ { "teamA": "Arsenal", "teamB": "Chelsea", "tip": "X2", "odds": "1.80" }, { "teamA": "Napoli", "teamB": "Milan", "tip": "1", "odds": "2.20" }, { "teamA": "PSG", "teamB": "Monaco", "tip": "GG & Over 2.5", "odds": "2.55" } ],
-    "vip1000": [ { "teamA": "Inter", "teamB": "Juventus", "tip": "1", "odds": "2.15" }, { "teamA": "Real Sociedad", "teamB": "Athletic Bilbao", "tip": "Under 2.5", "odds": "1.65" }, { "teamA": "Benfica", "teamB": "Porto", "tip": "GG", "odds": "1.85" } ],
-    "jackpot-sportpesa-mega": [ { "teamA": "Match 1", "teamB": "Team B", "tip": "1", "odds": "-" } ],
-    "jackpot-betika-midweek": [ { "teamA": "Match 1", "teamB": "Team B", "tip": "X", "odds": "-" } ]
-  },
 
+    
+  },
+  "packages": [ 
+    { "id": "draw1", "title": "1 Draw Package", "type": "flat", "price_kes": 200 },
+    { "id": "draw2", "title": "2 Draws Package", "type": "flat", "price_kes": 400 },
+    
+    { "id": "odds2", "title": "Silver Plan", "type": "flat", "price_kes": 155 },
+    { "id": "odds3", "title": "Gold Plan", "type": "flat", "price_kes": 255 },
+    { "id": "odds4", "title": "Platinum Plan", "type": "flat", "price_kes": 355 },
+    { "id": "odds5", "title": "LONGBET PLAN", "type": "flat", "price_kes": 455 },
+    { "id": "vip1000", "title": "VVIP PLAN", "type": "flat", "price_kes": 655, "isMostPopular": true },
+    { 
+      "id": "jackpot", 
+      "title": "SportPesa Jackpot (13/13)", 
+      "type": "jackpot", 
+      "jackpots": [
+        { "bookmaker": "SportPesa Jackpot 1 SLIP", "amount_kes": 500 },
+        { "bookmaker": "SportPesa Jackpot 2 SLIPS", "amount_kes": 850 }
+        
+      ]
+    },
+    { 
+      "id": "mega-jackpot", 
+      "title": "SportPesa Mega Jackpot (17/17)", 
+      "type": "jackpot", 
+      "jackpots": [
+        { "bookmaker": "Mega Jackpot 1 SLIP", "amount_kes": 500 },
+        { "bookmaker": "Mega Jackpot 2 SLIPS", "amount_kes": 850 }
+       
+      ]
+    }
+  ],
+  
+   "tips": {
+    "draw1": [ { "teamA": "Malavan Bandar Anzali", "teamB": "Chadormalu Ardakan Sc", "tip": "Draw", "odds": "3.20" } ],
+    
+    "draw2": 
+    [ { "teamA": "El Sekka El Hadid", "teamB": "Tanta Fc", "tip": "Draw", "odds": "3.10" }, 
+      { "teamA": "Rayo Vallecano", "teamB": "Celta Vigo", "tip": "Draw", "odds": "3.50" } ],
+    
+    "odds2": 
+    [ { "teamA": "Aalborg Bk", "teamB": "Hobro Ik", "tip": "OVER 2.5", "odds": "1.80" }, 
+      { "teamA": "Elversberg", "teamB": "Mainz", "tip": "OVER 2.5", "odds": "1.55" } ],
+    
+    "odds3": 
+    [ { "teamA": "Sheffield Utd", "teamB": "Wrexham", "tip": "GG", "odds": "1.80" }, 
+      { "teamA": "Konyaspor", "teamB": "Galatasaray", "tip": "OVER 2.5", "odds": "1.70" }, 
+      { "teamA": "Bielefeld", "teamB": "Braunschweig", "tip": "OVER 1.5", "odds": "1.35" } ],
+    
+    "odds4": 
+    [ { "teamA": "Bielefeld", "teamB": "Braunschweig", "tip": "GG", "odds": "1.35" }, 
+      { "teamA": "Bodoe/glimt", "teamB": " Viking Fk", "tip": "GG", "odds": "1.50" }, 
+      { "teamA": "Sheffield Utd", "teamB": "Wrexham", "tip": "OVER 2.5", "odds": "2.10" } ],
+    
+    "odds5": 
+    [ { "teamA": "Lille", "teamB": "Lens", "tip": "OVER 1.5", "odds": "1.35" }, 
+      { "teamA": "Xamax", "teamB": "Aarau", "tip": "OVER 2.5", "odds": "1.55" },
+       { "teamA": "Nice", "teamB": "Rennes", "tip": "2", "odds": "2.95" },
+      { "teamA": "Gorna", "teamB": "Beroe Zagora", "tip": "OVER 1.5", "odds": "1.45" } ],
+    
+    "vip1000": 
+    [ { "teamA": "Aso Chlef", "teamB": "Es Setif", "tip": "DRAW", "odds": "3.15" }, 
+      { "teamA": "Sheffield Utd", "teamB": "Wrexham", "tip": "OVER 2.5", "odds": "2.10" }, 
+      { "teamA": "Aalborg Bk", "teamB": "Hobro Ik", "tip": "OVER 2.5", "odds": "1.80" }, 
+      { "teamA": "Bielefeld", "teamB": "Braunschweig", "tip": "GG", "odds": "1.70" }, 
+      { "teamA": "Elversberg", "teamB": "Mainz", "tip": "OVER 2.5", "odds": "1.55" } ],
+    
+    "jackpot-sportpesa-jackpot-1-slip": 
+    { "slips": ["Jp# X1X211XX1"] },
+    "jackpot-sportpesa-jackpot-2-slips": 
+    { "slips": ["Jp# X1X211XX1", "Jp# X1X211XX1"] },
+    
+    "jackpot-mega-jackpot-1-slip": 
+    { "slips": ["MJP: 2,1,1,2,X,X,1,X,1,2,X,1,X,2,1,X,1"] },
+    "jackpot-mega-jackpot-2-slips": 
+    { "slips": ["MJP# 2,X,1,X,X,2,2,1,2,2,X,2,2,X,2,1,2", "MJP# 2,1,1,2,X,X,1,X,1,2,X,1,X,2,1,X,1"] }
+    
+  },
   
   "history": [
     {
       "date": "Yesterday",
       "categories": {
-        "1 Draw": [ { "country": "spain", "teamA": "Hull City", "teamB": "Everton", "prediction": "Draw", "score": "2-2", "odds": "3.50", "result": "WON" } ],
+
+         "1 Draw": [ { "country": "spain", "teamA": "Shabana", "teamB": "Migori Youth", "prediction": "Draw", "score": "1-1", "odds": "3.50", "result": "WON" } ],
         "2 Draws": [ 
-            { "country": "italy", "teamA": "Fredrikstad", "teamB": "Tromso", "prediction": "Draw", "score": "1-1", "odds": "4.25", "result": "WON" },
-            { "country": "france", "teamA": "Chanthaburi", "teamB": "Nongbua Pitch", "prediction": "Draw", "score": "0-0", "odds": "3.59", "result": "WON" }
+            { "country": "italy", "teamA": "Team FC", "teamB": "Delta United", "prediction": "Draw", "score": "1-1", "odds": "3.50", "result": "WON" },
+            { "country": "france", "teamA": "Fiorentina", "teamB": "Atalanta", "prediction": "Draw", "score": "2-2", "odds": "3.10", "result": "WON" }
         ],
-        "3 Draws": [ 
-            { "country": "germany", "teamA": "Renate", "teamB": "Giana Erminio", "prediction": "Draw", "score": "2-2", "odds": "4.40", "result": "WON" },
-            { "country": "england", "teamA": "Elche", "teamB": "Celta", "prediction": "Draw", "score": "0-0", "odds": "3.10", "result": "WON" },
-            { "country": "italy", "teamA": "Vitebsk", "teamB": "Isloch", "prediction": "Draw", "score": "0-0", "odds": "3.30", "result": "WON" }
+        
+        "Silver Plan": [ 
+          { "country": "england", "teamA": "Aarhus Fremad", "teamB": "Copenhagen", "prediction": "OVER 2.5", "score": "0-3", "odds": "1.60", "result": "WON" },
+          { "country": "germany", "teamA": "De Treffers Groesbeek", "teamB": "Heracles Almelo", "prediction": "1", "score": "1-0", "odds": "6.70", "result": "WON" }
         ],
-        "2 Odds": [ { "country": "england", "teamA": "Arsenal", "teamB": "Chelsea", "prediction": "1", "score": "2-0", "odds": "2.10", "result": "WON" } ],
-        "5 Odds": [ 
-            { "country": "spain", "teamA": "Real Madrid", "teamB": "Sevilla", "prediction": "1 & Over 2.5", "score": "3-1", "odds": "2.30", "result": "WON" },
-            { "country": "germany", "teamA": "Bayern Munich", "teamB": "Stuttgart", "prediction": "1", "score": "2-0", "odds": "1.85", "result": "WON" },
-            { "country": "italy", "teamA": "Juventus", "teamB": "Torino", "prediction": "Under 2.5", "score": "1-0", "odds": "1.50", "result": "WON" }
+        
+
+        "Gold Plan": [ 
+            { "country": "spain", "teamA": "Everton", "teamB": "Newcastle", "prediction": "OVER 2.5", "score": "3-1", "odds": "1.95", "result": "WON" },
+            { "country": "germany", "teamA": "Pyramids", "teamB": "Wadi Degla", "prediction": "1", "score": "2-1", "odds": "1.50", "result": "WON" },
+            { "country": "spain", "teamA": "Fiorentina", "teamB": "Atalanta", "prediction": "GG", "score": "2-2", "odds": "1.60", "result": "WON" }
         ],
-        "10 Odds": [ 
-            { "country": "france", "teamA": "PSG", "teamB": "Marseille", "prediction": "1 & GG", "score": "3-1", "odds": "2.80", "result": "WON" },
-            { "country": "england", "teamA": "Liverpool", "teamB": "Newcastle", "prediction": "1", "score": "2-0", "odds": "1.75", "result": "WON" },
-            { "country": "italy", "teamA": "Napoli", "teamB": "Roma", "prediction": "GG", "score": "1-1", "odds": "1.90", "result": "WON" },
-            { "country": "spain", "teamA": "Barcelona", "teamB": "Girona", "prediction": "Over 2.5", "score": "2-1", "odds": "1.65", "result": "WON" }
+        
+        
+        "Platinum Plan": [ 
+            { "country": "spain", "teamA": "Frosinone", "teamB": "Lecce", "prediction": "1", "score": "5-1", "odds": "1.80", "result": "WON" },
+            { "country": "spain", "teamA": "Maccabi Tel Aviv", "teamB": "Hapoel Tel Aviv", "prediction": "GG", "score": "2-3", "odds": "1.65", "result": "WON" },
+            { "country": "italy", "teamA": "Hammarby If", "teamB": "Ik Sirius", "prediction": "1", "score": "2-0", "odds": "1.51", "result": "WON" }
         ],
+        
+        "LONGBET PLAN": [ 
+           { "country": "france", "teamA": "Fiorentina", "teamB": "Atalanta", "prediction": "OVER 2.5", "score": "3-1", "odds": "1.65", "result": "WON" },
+           { "country": "france", "teamA": "Everton", "teamB": "Newcastle", "prediction": "1", "score": "3-1", "odds": "2.55", "result": "WON" },
+           { "country": "spain", "teamA": "Braga", "teamB": "Familicao", "prediction": "OVER 1.5", "score": "2-2", "odds": "1.35", "result": "WON" }
+        ],
+        
         "VIP Tips": [ 
-            { "country": "italy", "teamA": "Inter", "teamB": "Lazio", "prediction": "1", "score": "2-0", "odds": "1.95", "result": "WON" },
-            { "country": "england", "teamA": "Man City", "teamB": "Aston Villa", "prediction": "1 & Over 2.5", "score": "3-1", "odds": "2.05", "result": "WON" },
-            { "country": "germany", "teamA": "Leverkusen", "teamB": "Dortmund", "prediction": "GG & Over 2.5", "score": "2-2", "odds": "2.15", "result": "WON" }
+            { "country": "italy", "teamA": "Future", "teamB": "Al Ahly Sc", "prediction": "2", "score": "0-1", "odds": "1.50", "result": "WON" },
+            { "country": "italy", "teamA": "Everton", "teamB": "Newcastle", "prediction": "OVER 2.5", "score": "3-1", "odds": "1.95", "result": "WON" },
+            { "country": "italy", "teamA": "Maccabi Tel Aviv", "teamB": "Hapoel Tel Aviv", "prediction": "GG", "score": "2-2", "odds": "1.60", "result": "WON" },
+            { "country": "germany", "teamA": "Pyramids", "teamB": "Wadi Degla", "prediction": "OVER 2.5", "score": "2-1", "odds": "2.20", "result": "WON" },
+           { "country": "germany", "teamA": "Fiorentina", "teamB": "Atalanta", "prediction": "OVER 2.5", "score": "3-1", "odds": "1.65", "result": "WON" }
         ]
+      }
+    },
+    {
+      "date": "Last Weekend",
+      "categories": {
+        "SportPesa Jackpot (13 Games)": {
+          "bonus": {
+            "title_1": "MIDWEEK",
+            "title_2": "JACKPOT",
+            "title_3": "BONUSES",
+            "tiers": [
+                { "label": "12/13 CORRECT", "amount": "1,069,828" },
+                { "label": "11/13 CORRECT", "amount": "81,398" },
+                { "label": "10/13 CORRECT", "amount": "10,797" }
+            ],
+            "combo_label": "WINNING COMBO",
+            "combo_string": "1,1,2,2,1,X,X,2,2,1,2,2,X"
+          },
+          "matches": [
+            { "prediction": "(JP#1X212X1X21X21)", "result": "12/13 WON (Bonus)" },
+            { "prediction": "(JP#211X221XX1121)", "result": "11/13 WON (Bonus)" }
+          ]
+        },
+        "SportPesa Mega Jackpot (17 Games)": {
+          "bonus": {
+            "title_1": "MEGA",
+            "title_2": "JACKPOT",
+            "title_3": "BONUSES",
+            "tiers": [
+                { "label": "15/17 CORRECT", "amount": "5,069,828" },
+                { "label": "14/17 CORRECT", "amount": "581,398" },
+                { "label": "13/17 CORRECT", "amount": "90,797" },
+                { "label": "12/17 CORRECT", "amount": "15,500" }
+            ],
+            "combo_label": "WINNING COMBO",
+            "combo_string": "1,X,2,1,X,2,1,2,2,1,X,2,1,1,2,X,1"
+          },
+          "matches": [
+            { "prediction": "(JP#112X21X1221X21XX1)", "result": "15/17 WON (Bonus)" },
+            { "prediction": "(JP#X2112X1121221XX21)", "result": "13/17 WON (Bonus)" }
+          ]
+        }
       }
     }
   ]
