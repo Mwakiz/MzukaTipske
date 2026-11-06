@@ -205,7 +205,7 @@
   ],
   
    "tips": {
-    "draw1": [ { "teamA": "Kcb", "teamB": "Aps Bomet Fc", "tip": "Draw", "odds": "3.50" } ],
+    "draw1": [ { "teamA": "Kcb", "teamB": " Aps Bomet Fc", "tip": "Draw", "odds": "3.50" } ],
     
     "draw2": 
     [ { "teamA": "Pfc Sogdiana", "teamB": "Pfk Dinamo Samarqand", "tip": "Draw", "odds": "3.20" }, 
