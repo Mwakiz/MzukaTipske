@@ -256,17 +256,23 @@
       "date": "Yesterday",
       "categories": {
 
-         "1 Draw": [ { "country": "spain", "teamA": " Atletico Tucuman II ", "teamB": " Ca Union Santa Fe II ", "prediction": " Draw ", "score": " 0-0 ", "odds": " 3.50 ", "result": "WON" } ],
+        "1 Draw": [ { "country": "spain", "teamA": " Al Ahli ", "teamB": " Amman Fc ", "prediction": " Draw ", "score": " 0-0 ", "odds": " 3.50 ", "result": "WON" } ],
         "2 Draws": [ 
-            { "country": "italy", "teamA": " Lokeren ", "teamB": " Dender ", "prediction": " Draw ", "score": " 2-2 ", "odds": " 3.50 ", "result": "WON" },
-            { "country": "france", "teamA": "Celta ", "teamB": " Levante ", "prediction": " Draw ", "score": " 0-0 ", "odds": " 4.10 ", "result": "WON" }
+            { "country": "italy", "teamA": " Armenia ", "teamB": " Cyprus ", "prediction": " Draw ", "score": " 1-1 ", "odds": " 3.30 ", "result": "WON" },
+            { "country": "france", "teamA": " Equatorial Guinea ", "teamB": " Belarus ", "prediction": " HT1 -OV1.5 ", "score": " 0-2 ", "odds": " 2.60 ", "result": "WON" }
         ],
         
         "Silver Plan": [ 
-          { "country": "england", "teamA": " Bradford City ", "teamB": " York ", "prediction": " 1 ", "score": " 4-0 ", "odds": " 1.75 ", "result": "WON" },
-          { "country": "germany", "teamA": " Santa Clara U21 ", "teamB": " Torreense U21 ", "prediction": " 2 ", "score": " 2-3 ", "odds": " 2.55 ", "result": "WON" }
+          { "country": "england", "teamA": " England ", "teamB": " Croatia ", "prediction": " OVER 2.5 ", "score": " 2-1 ", "odds": " 1.50 ", "result": "WON" },
+          { "country": "germany", "teamA": " San Marino ", "teamB": " Torreense U21 ", "prediction": " 2 ", "score": " 2-3 ", "odds": " 2.55 ", "result": "WON" }
         ],
         
+
+        "Gold Plan": [ 
+            { "country": "spain", "teamA": " England ", "teamB": " Croatia ", "prediction": " HT1 - 1 ", "score": " 2-1 ", "odds": " 2.20 ", "result": "WON" },
+            { "country": "spain", "teamA": " Italy ", "teamB": " France ", "prediction": " OVER 2.5 ", "score": " 3-1 ", "odds": " 1.89 ", "result": "WON" }
+        ],
+               
 
         "Gold Plan": [ 
             { "country": "spain", "teamA": " Bury ", "teamB": " Cleethorpes Town ", "prediction": " 1 ", "score": " 1-0 ", "odds": " 2.20 ", "result": "WON" },
