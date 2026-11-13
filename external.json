@@ -264,7 +264,7 @@
         
         "Silver Plan": [ 
           { "country": "england", "teamA": " England ", "teamB": " Croatia ", "prediction": " OVER 2.5 ", "score": " 2-1 ", "odds": " 1.50 ", "result": "WON" },
-          { "country": "germany", "teamA": " San Marino ", "teamB": " Torreense U21 ", "prediction": " 2 ", "score": " 2-3 ", "odds": " 2.55 ", "result": "WON" }
+          { "country": "germany", "teamA": " San Marino ", "teamB": " Belarus ", "prediction": " HT1 - OV1.5 ", "score": " 0-2 ", "odds": " 2.30 ", "result": "WON" }
         ],
         
 
@@ -275,8 +275,8 @@
                
 
         "Gold Plan": [ 
-            { "country": "spain", "teamA": " Bury ", "teamB": " Cleethorpes Town ", "prediction": " 1 ", "score": " 1-0 ", "odds": " 2.20 ", "result": "WON" },
-            { "country": "spain", "teamA": " Bromley ", "teamB": " Mk Dons ", "prediction": " OVER 2.5 ", "score": " 1-2 ", "odds": " 1.60 ", "result": "WON" }
+            { "country": "spain", "teamA": " Turkey ", "teamB": " Belgium ", "prediction": " GG ", "score": " 1-2 ", "odds": " 1.70 ", "result": "WON" },
+            { "country": "spain", "teamA": " New Zealand ", "teamB": " India ", "prediction": " OVER 3.5 ", "score": " 5-0 ", "odds": " 2.20 ", "result": "WON" }
         ],
         
         
