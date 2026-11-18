@@ -163,11 +163,11 @@
   ],
   "free_tip": {
     "country": "Call Us: 0728832598",
-    "league": " International Youth  ",
-    "time": " Today 22:45 EAT ",
-    "teamA": " Israel ",
-    "teamB": " Austria   ",
-    "pick": "Pick: 2 ",
+    "league": " Spain ",
+    "time": " Today 22:00 EAT ",
+    "teamA": " Cd Alcoyano ",
+    "teamB": " Mallorca   ",
+    "pick": "Pick: OVER 2.5 ",
     "confidence": "98"
   
 
@@ -208,35 +208,35 @@
     "draw1": [ { "teamA": " Havadar Sc  ", "teamB": " Sanat Mes Kerman Fc  ", "tip": "Draw", "odds": "3.50" } ],
     
     "draw2": 
-    [ { "teamA": " Burundi   ", "teamB": "  Zambia ", "tip": "Draw", "odds": "3.50" }, 
-      { "teamA": "  Havadar ", "teamB": "  Sanat Mes Kerman Fc  ", "tip": "Draw", "odds": "3.20" } ],
+    [ { "teamA": " Roan United    ", "teamB": "  Chirundu United ", "tip": "Draw", "odds": "3.50" }, 
+      { "teamA": "  Cs Constantine ", "teamB": "  Ben Aknoun ", "tip": "Draw", "odds": "3.20" } ],
     
     "odds2": 
-    [ { "teamA": " Serbia U21  ", "teamB": " Poland U21  ", "tip": " OVER 2.5 ", "odds": " 1.75 " }, 
-      { "teamA": " Denmark  ", "teamB": "  Norway  ", "tip": " 1 ", "odds": "2.50" } ],
+    [ { "teamA": " Badajoz  ", "teamB": " Tenerife  ", "tip": " OVER 1.5 ", "odds": " 1.35 " }, 
+      { "teamA": " Cd Bala Azul  ", "teamB": "  Atletico Santa Cruz  ", "tip": " 2 ", "odds": "2.70" } ],
     
     "odds3": 
-    [ { "teamA": " Togo   ", "teamB": "  Algeria  ", "tip": " 2 ", "odds": "1.95" }, 
-      { "teamA": " Bosnia & Herzegovina  ", "teamB": " Romania ", "tip": " 1 ", "odds": "2.55" } ],
+    [ { "teamA": " Cd Alcoyano   ", "teamB": "  Mallorca  ", "tip": " 2 ", "odds": " 1.60 " }, 
+      { "teamA": " Fethiyespor  ", "teamB": " Kutahyaspor ", "tip": " 2 ", "odds": " 2.55 " } ],
     
     "odds4": 
-    [ { "teamA": " Gambia  ", "teamB": " Ivory Coast ", "tip": " 2 ", "odds": " 1.70 " }, 
-      { "teamA": " Sierra Leone   ", "teamB": " Dr Congo  ", "tip": " 2 ", "odds": " 1.45 " }, 
-      { "teamA": "  Malawi  ", "teamB": " Egypt ", "tip": " OVER 2.5 ", "odds": " 1.75 " } ],
+    [ { "teamA": " Al-adalah  ", "teamB": " Al-orobah ", "tip": " GG ", "odds": " 1.70 " }, 
+      { "teamA": " Cd Alcoyano   ", "teamB": " Mallorca  ", "tip": " OVER 2.5 ", "odds": " 2.25 " }, 
+      { "teamA": "  Real Madrid W  ", "teamB": " Inter Milano W ", "tip": " OVER 2.5 ", "odds": " 1.45 " } ],
     
     "odds5": 
-    [ { "teamA": " Luton   ", "teamB": " Peterborough  ", "tip": " 1 ", "odds": " 1.55 " }, 
-      { "teamA": " Wales  ", "teamB": " Portugal ", "tip": " OVER 2.5 ", "odds": " 1.65 " },
-      { "teamA": " Denmark  ", "teamB": " Norway ", "tip": " GG ", "odds": " 1.45 " },
-      { "teamA": " Kenya  ", "teamB": " South Africa ", "tip": " OVER 1.5 ", "odds": "1.50" } ],
+    [ { "teamA": " Serik  ", "teamB": " Erzincan Futbol Yatirimlari As   ", "tip": " 2 ", "odds": " 2.15 " }, 
+      { "teamA": " Utebo ", "teamB": " Sabadell Fc  ", "tip": " 2 ", "odds": " 1.65 " },
+      { "teamA": " Hacken W ", "teamB": " Manchester City W ", "tip": " 1 ", "odds": " 1.45 " },
+      { "teamA": " London City Lionesses  ", "teamB": " Brighton And Hove Albion Wfc ", "tip": " OVER 2.5 ", "odds": "1.55" } ],
     
     "vip1000": 
-    [ { "teamA": " Scotland U19  ", "teamB": " Belgium U19 ", "tip": " 2 ", "odds": " 1.95 " }, 
-      { "teamA": " Oxford City  ", "teamB": "  Macclesfield Fc  ", "tip": " OVER 2.5 ", "odds": " 1.65 " }, 
-      { "teamA": " Gambia   ", "teamB": " Ivory Coast ", "tip": " OVER 1.5 ", "odds": " 1.45 " }, 
-      { "teamA": " Luton  ", "teamB": " Peterborough  ", "tip": " 1 ", "odds": " 1.55 " }, 
-      { "teamA": " Serbia U21   ", "teamB": "  Poland U21 ", "tip": " OVER 2.5 ", "odds": " 1.65 " }, 
-      { "teamA": "  Havadar Sc   ", "teamB": " Sanat Mes Kerman Fc ", "tip": " DRAW ", "odds": "3.10" } ],
+    [ { "teamA": " Utebo  ", "teamB": " Sabadell Fc ", "tip": " 2 ", "odds": " 1.65 " }, 
+      { "teamA": " London City Lionesses ", "teamB": " Brighton And Hove Albion Wfc   ", "tip": " OVER 2.5 ", "odds": " 1.65 " }, 
+      { "teamA": " Real Madrid   ", "teamB": " Inter Milano ", "tip": " OVER 2.5 ", "odds": " 1.45 " }, 
+      { "teamA": " Coritiba  ", "teamB": " Santos Sp  ", "tip": " OVER 1.5 ", "odds": " 1.35 " }, 
+      { "teamA": " Cd Alcoyano ", "teamB": "  Mallorca ", "tip": " OVER 2.5 ", "odds": " 2.25 " }, 
+      { "teamA": "  Cr Temouchent   ", "teamB": " Js El Biar ", "tip": " DRAW ", "odds": "3.10" } ],
     
     "jackpot-sportpesa-jackpot-1-slip": 
     { "slips": [" COMING UP..... "] },
@@ -255,10 +255,10 @@
       "date": "Yesterday",
       "categories": {
 
-        "1 Draw": [ { "country": "spain", "teamA": " Ulinzi Stars ", "teamB": " Migori Yooth ", "prediction": " Draw ", "score": " 1-1 ", "odds": " 3.50 ", "result": "WON" } ],
+        "1 Draw": [ { "country": "spain", "teamA": " Havadar Sc ", "teamB": " Sanat Mes Kerman Fc ", "prediction": " Draw ", "score": " 0-0 ", "odds": " 3.50 ", "result": "WON" } ],
         "2 Draws": [ 
-            { "country": "italy", "teamA": " Mallorca ", "teamB": " Cordoba ", "prediction": " Draw ", "score": " 3-3 ", "odds": " 3.50 ", "result": "WON" },
-            { "country": "france", "teamA": " Pulpileno ", "teamB": " San Javier ", "prediction": " DRAW ", "score": " 1-1 ", "odds": " 3.60 ", "result": "WON" }
+            { "country": "italy", "teamA": " Burundi ", "teamB": " Zambia ", "prediction": " Draw ", "score": " 1-1 ", "odds": " 3.50 ", "result": "WON" },
+            { "country": "france", "teamA": " Lebanon ", "teamB": " Palestine ", "prediction": " DRAW ", "score": " 0-0 ", "odds": " 3.60 ", "result": "WON" }
         ],
         
         "Silver Plan": [ 
